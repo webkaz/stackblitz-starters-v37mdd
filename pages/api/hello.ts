@@ -27,8 +27,6 @@ export default async (req, res) => {
   //元画像の読み込み
   const img = await sharp(img_in_path);
 
-  //コメント追加
-
   const overlay = `<svg width="200" height="200">
     <text x="50%" y="50%" font-family="sans-serif" dominant-baseline="middle" font-size="30" text-anchor="middle">Lorem ipsum</text>
     </svg>`;
