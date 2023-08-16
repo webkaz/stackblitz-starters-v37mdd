@@ -1,3 +1,7 @@
+npm install && npx next dev
+https://note.affi-sapo-sv.com/nodejs-sharp.php
+https://blog.kozakana.net/2019/04/sharp-image-processing/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
