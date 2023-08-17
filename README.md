@@ -10,6 +10,16 @@ https://blog.kozakana.net/2019/04/sharp-image-processing/
 https://blog.stackblitz.com/posts/bringing-sharp-to-wasm-and-webcontainers
 
 
+# 合成部分の詳細仕様の整理
+
+1. コピーライトの文字列から文字の画像を生成し、商品画像に合成する
+1. 合成位置は、右下
+1. フォントの大きさは、画像の高さの1/10で、最小20px
+1. 文字全体の幅が、画像の幅の1/2を超える場合は、コピーライト文字列のスペース位置で改行する
+1. スペース分割しても収まらない場合は、最大で画像幅まで許容する
+1. それでも収まらない場合は、エラーログを出力して次の画像の処理
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

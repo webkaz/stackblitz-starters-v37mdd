@@ -9,9 +9,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+      <h1 className={styles.title}>
+          <a href="api/generate">Generate!</a>
+        </h1>
+        <h1 className={styles.title}>
+          <a href="upload">upload</a>
+        </h1>
+
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
-          <a href="api/hello">images</a>
         </h1>
 
         <p className={styles.description}>
