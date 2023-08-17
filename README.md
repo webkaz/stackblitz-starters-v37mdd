@@ -1,6 +1,14 @@
+# 起動コマンド
+
 npm install && npx next dev
+
+# Sharpの使い方
 https://note.affi-sapo-sv.com/nodejs-sharp.php
 https://blog.kozakana.net/2019/04/sharp-image-processing/
+
+# まだ、StackBlitzでSharpのSVG処理は実行できない
+https://blog.stackblitz.com/posts/bringing-sharp-to-wasm-and-webcontainers
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
